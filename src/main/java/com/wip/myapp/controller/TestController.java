@@ -12,4 +12,8 @@ public class TestController {
 	private String sayHi() {
 		return "Success!!! Getting Message from TestController!";
 	}
+	@GetMapping("/name")
+	private String myName() {
+		return "My name is Kunal";
+	}
 }
